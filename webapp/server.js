@@ -9,4 +9,4 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(public_path + '/index.html'));
 });
 
-app.listen(80);
+app.listen(8080);
