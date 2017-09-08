@@ -1,4 +1,4 @@
-FROM node:latest
+FROM resin/raspberry-pi-alpine-node:latest 
 
 RUN mkdir -p /usr/local/webapp
 WORKDIR /usr/local/webapp
