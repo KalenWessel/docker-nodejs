@@ -1,6 +1,6 @@
 FROM resin/raspberry-pi-alpine-node:latest 
 
-RUN mkdir -p /usr/local/webapp
+RUN /bin/bash mkdir -p /usr/local/webapp
 WORKDIR /usr/local/webapp
 
 COPY /webapp /usr/local/webapp/
